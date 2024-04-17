@@ -1,0 +1,19 @@
+{
+  "name": "mi-repertorio",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Descripción\r La escuela de música “E-Sueño” está motivando a sus estudiantes de canto a presentarse en\r vivo y se puso en contacto con el restaurante del sector para usar su tarima e iniciar un\r calendario de presentaciones. Para conocer y gestionar las canciones que cantarán sus\r estudiantes, la escuela contrató a un desarrollador freelance para la creación de una\r aplicación tipo CRUD.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.5"
+  }
+}
