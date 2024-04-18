@@ -4,12 +4,22 @@ import express from 'express';
 const { Pool } = pg;
 
 const pool = new Pool({
-  user: "postgres",
-  host: "localhost",
-  password: "Pauli1989+",
-  database: "repertorio",
+  user: "repertorio_yv4a_user",
+  host: "dpg-cogkuai1hbls738sevc0-a.oregon-postgres.render.com",
+  password: "WesZfK06DSvhqM6fomztqVK6C1wYTf9O",
+  database: "repertorio_yv4a",
   port: 5432,
+  ssl: true
 });
+
+
+//const pool = new Pool({
+  //user: "postgres",
+  //host: "localhost",
+  //password: "Pauli1989+",
+  //database: "repertorio",
+  //port: 5432,
+//});
 
 const app = express();
 const port = 3000;
